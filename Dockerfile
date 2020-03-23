@@ -1,10 +1,6 @@
 FROM openshift/base-centos7
 
-...
-
 EXPOSE 8080
-
-...
 
 # Install Java
 RUN INSTALL_PKGS="tar unzip bc which lsof java-1.8.0-openjdk java-1.8.0-openjdk-devel" && \
