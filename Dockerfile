@@ -19,6 +19,7 @@ USER 1001
 #ADD src /opt/app-root/src/src
 
 ADD src /opt/app-root/src/src
+ADD .mvn /opt/app-root/src/.mvn
 ADD mvnw /opt/app-root/src/mvnw
 ADD mvnw.cmd /opt/app-root/src/mvnw.cmd
 ADD pom.xml /opt/app-root/src/pom.xml
